@@ -255,6 +255,9 @@ debug.hwui.target_cpu_time_percent=30
 # Incremental FS
 ro.incremental.enable=true
 
+# Feature flags
+persist.sys.fflag.override.settings_enable_monitor_phantom_procs=false
+
 # Media
 media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 
