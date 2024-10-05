@@ -156,19 +156,6 @@ persist.vendor.camera.privapp.list=com.motorola.camera3
 ro.crypto.dm_default_key.options_format.version=2
 ro.crypto.volume.metadata.method=dm-default-key
 
-# Enable Just-In-Time (JIT) compilation
-dalvik.vm.usejit=true
-
-# Enable dalvik VM's experimental features
-dalvik.vm.dexopt-flags=m=y
-
-# Enable Background Compilation
-dalvik.vm.bg-dexopt=true
-
-# Minimize GC pauses
-dalvik.vm.dex2oat-Xms64m
-dalvik.vm.dex2oat-Xmx512m
-
 # Dalvik
 dalvik.vm.dex2oat-threads=6
 dalvik.vm.dex2oat64.enabled=true
