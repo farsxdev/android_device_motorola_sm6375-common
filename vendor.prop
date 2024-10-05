@@ -257,20 +257,6 @@ vendor.pasr.activemode.enabled=true
 ro.vendor.extension_library=libqti-perfd-client.so
 ro.vendor.perf-hal.ver=2.2
 
-# Touch Hax 
-touch.size.scale=1
-touch.size.bias=0
-touch.size.isSummed=0
-touch.pressure.scale=0.001
-touch.distance.calibration=none
-touch.distance.scale=0
-touch.coverage.calibration=box
-touch.gestureMode=spots
-MultitouchSettleInterval=1ms
-MultitouchMinDistance=1px
-TapInterval=1ms
-TapSlop=1px
-
 # QSPM
 ro.vendor.qspm.enable=true
 
