@@ -646,15 +646,6 @@ service vendor.power_off_alarm /vendor/bin/power_off_alarm
     group system
     disabled
     oneshot
-	
-	# Improve surfaceflinger and tasks
-on property:persist.sys.device_provisioned=1
-service surfaceflinger /system/bin/surfaceflinger
-    class main
-    user system
-    group graphics drmrpc
-    capabilities SYS_NICE
-    writepid /dev/cpuset/system-background/tasks
 
 service bugreport /system/bin/dumpstate -d -p -B -z -o /data/user_de/0/com.android.shell/files/bugreports/bugreport
     class main
